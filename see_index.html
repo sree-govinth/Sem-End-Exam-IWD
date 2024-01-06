@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="see_styles.css">
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <p>Sree Govinth</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#main-section" class="active">Home</a></li>
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                    <!-- Add more links as needed -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="bgvideo3.mp4" type="video/mp4">
+    </video>
+    <!-- Main Section -->
+    <section class="container">
+    <section class="main-section" id="main-section">
+        <div class="left-section" id="intro-section">
+            <p id="name1">Hello World! I'm</p>
+            <p id="name2">Sree Govinth</p>
+            <p id="intro-text"></p>
+        </div>
+        <!-- Scroll Button -->
+        <div class="scroll-button" onclick="scrollToNextPage()">
+            <span>&#8595;</span>
+        </div>
+    </section>
+    </section>   
+
+    <section class="portfolio-box" id="aboutme">
+        <h2>About Me</h2>
+        <p> I am a </p>
+        <ul>
+            <li>Robotics Enthusiast</li><br>
+            <li>Web designer</li><br>
+            <li>App developer</li><br>
+            <li>Product/Game designer</li><br>
+        </ul>
+        <p> and I am </p>
+        <ul>
+            <li>Passionate about Teaching</li><br>
+        </ul>
+    </section>
+
+    <section class="portfolio-box" id="timeline">
+        <h2>Education</h2>
+        <dl>
+            <dt>2022-23: Grade 12</dt>
+            <dd>Institution: CBSE</dd>
+            <dd>Marks: 91%</dd>
+        </dl>
+        <dl>
+            <dt>2023-present: BTech (H) in CSE</dt>
+            <dd>Institution: RV University</dd>
+            <dd>Marks: yet to be announced</dd>
+        </dl>
+    </section>
+
+    <section class="portfolio-box" id="projects">
+        <section class="projects-section">
+            <div class="project-container">
+                <div class="projects">
+                    <div class="project" id="project1">
+                        <h3>Music-vibing LEDs</h3>
+                        <pre>A beautiful, colourful stacking of LED strips that is connected to a mobile phone.
+The led stips vibe according to the music.
+                        </pre>
+                    </div>
+                    <div class="project" id="project2">
+                        <h3>Expense Tracker</h3>
+                        <pre>A highly responsive and visually appealing website that tracks your expense
+for you.
+                        </pre>
+                    </div>
+                    <div class="project" id="project3">
+                        <h3>The Data Odyssey</h3>
+                        <pre>A visually appealing descriptive analysis and storytelling of the Netfilx data.</pre>
+                    </div>
+                    <!-- Add more projects as needed -->
+                </div>
+                <div class="button-container">
+                    <button id="prevButton">&larr; Prev</button>
+                    <button id="nextButton">Next &rarr;</button>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="portfolio-box" id="contact">
+        <h2>Let's Connect</h2>
+        <div class="logo-container">
+            <a class="logo1" href="https://www.linkedin.com/in/sree-govinth-n-672473298/"><img src="linkedin.png"></a>
+            <a class="logo1" href="https://www.instagram.com/sreeg_salvatore/"><img src="instagram.avif"></a>
+            <a class="logo1" href="https://github.com/sree-govinth"><img src="github.png"></a>
+            <a class="logo1" href="mailto:sreegovinth@gmail.com"><img src="gmail.png"></a>
+        </div>
+        <br>
+        <p>(or) Call me: 8189999xxx</p>
+    </section>
+    <script src="see_script.js"></script>
+    
+    <footer>
+        <p>Sree Govinth | Copyrights - 2024</p>
+    </footer>
+</body>
+</html>
+
